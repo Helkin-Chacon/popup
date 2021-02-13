@@ -1,0 +1,16 @@
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\bin\Debug\netstandard2.0\PopDink2.deps.json
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\bin\Debug\netstandard2.0\PopDink2.dll
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\bin\Debug\netstandard2.0\ref\PopDink2.dll
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\bin\Debug\netstandard2.0\PopDink2.pdb
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\obj\Debug\netstandard2.0\PopDink2.csprojAssemblyReference.cache
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\obj\Debug\netstandard2.0\views\Page1.xaml.g.cs
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\obj\Debug\netstandard2.0\views\PopDink.xaml.g.cs
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\obj\Debug\netstandard2.0\PopDink2.AssemblyInfoInputs.cache
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\obj\Debug\netstandard2.0\PopDink2.AssemblyInfo.cs
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\obj\Debug\netstandard2.0\PopDink2.csproj.CoreCompileInputs.cache
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\obj\Debug\netstandard2.0\PopDink2.dll
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\obj\Debug\netstandard2.0\ref\PopDink2.dll
+C:\Users\HELKIN\source\repos\PopDink2\PopDink2\obj\Debug\netstandard2.0\PopDink2.pdb

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "o5iE1OlBmNW402UifMQsOwt0pSbT/AzWHgpsURpCD4PuMfJx+6WxPYwzZLg58f3Z4yveX5Fwii77ZiVBzwF9Tg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HELKIN\\source\\repos\\PopDink2\\PopDink2.iOS\\PopDink2.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HELKIN\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",
+    "C:\\Users\\HELKIN\\.nuget\\packages\\syncfusion.licensing\\18.4.0.42\\syncfusion.licensing.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\HELKIN\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.42\\syncfusion.xamarin.core.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\HELKIN\\.nuget\\packages\\syncfusion.xamarin.sfpopuplayout\\18.4.0.42\\syncfusion.xamarin.sfpopuplayout.18.4.0.42.nupkg.sha512",
+    "C:\\Users\\HELKIN\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\HELKIN\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\HELKIN\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\HELKIN\\.nuget\\packages\\xamarin.ffimageloading.svg\\2.4.11.982\\xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\HELKIN\\.nuget\\packages\\xamarin.ffimageloading.svg.forms\\2.4.11.982\\xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\HELKIN\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

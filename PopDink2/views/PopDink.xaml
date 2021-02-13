@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:sfpopup="clr-namespace:Syncfusion.XForms.PopupLayout;assembly=Syncfusion.SfPopupLayout.XForms" 
+             xmlns:local="clr-namespace:PopDink2.viewModel"
+             x:Class="PopDink2.views.PopDink"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms">
+
+    <ContentPage.BindingContext>
+        <local:viewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ffimageloadingsvg:SvgImageSourceConverter x:Key ="SvgImage">
+            </ffimageloadingsvg:SvgImageSourceConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <sfpopup:SfPopupLayout x:Name="popup" IsOpen="{Binding DisplayPopup}" 
+                               RelativePosition="AlignTop" 
+                                AbsoluteY="0"
+                               AbsoluteX="-130"           
+                               RelativeView="{x:Reference isOpenButton}">
+            <sfpopup:SfPopupLayout.Content>
+                <Grid x:Name="rootView">
+                    <Button x:Name="isOpenButton" 
+                            WidthRequest="40"
+                            Text="OO"
+                            VerticalOptions="End"
+                            HorizontalOptions="Center"
+                            Command="{Binding OpenPopupCommand}">                        
+                    </Button>
+                </Grid>
+            </sfpopup:SfPopupLayout.Content>
+            
+            <sfpopup:SfPopupLayout.PopupView>
+
+                <sfpopup:PopupView ShowFooter="False" 
+                                   ShowHeader="False" 
+                                   WidthRequest="300" 
+                                   HorizontalOptions="Center"
+                                   AnimationMode="SlideOnBottom"
+                                   >
+                    <sfpopup:PopupView.ContentTemplate>
+                        <DataTemplate>
+                            <Grid RowSpacing="10" Padding="10,10,10,10" ColumnSpacing="40" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>                            
+                               </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition>  </ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid  Grid.Column="0" Grid.Row="0" RowSpacing="0" >
+                                    <Grid VerticalOptions="Center"  >
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="0.6*"></RowDefinition>
+                                            <RowDefinition Height="0.4*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <ffimageloadingsvg:SvgCachedImage  
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="End"
+                                        Aspect="AspectFill"
+                                        HeightRequest="50"
+                                        WidthRequest="50"
+                                        Source="IngresoIcon.svg">
+                                        </ffimageloadingsvg:SvgCachedImage>
+                                        <Label Padding="0,0,0,0" Text="Ingresos" HorizontalOptions="Center" Grid.Column="0" Grid.Row="1" Margin="0,0,0,0"></Label>
+                                    </Grid>
+                                </Grid>
+                                <Grid  Grid.Column="1" Grid.Row="0" RowSpacing="0" >
+                                    <Grid VerticalOptions="Center"  >
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="0.6*"></RowDefinition>
+                                            <RowDefinition Height="0.4*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <ffimageloadingsvg:SvgCachedImage  
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="End"
+                                        Aspect="AspectFill"
+                                        HeightRequest="50"
+                                        WidthRequest="50"
+                                        Source="ProyectoIcon.svg">
+                                        </ffimageloadingsvg:SvgCachedImage>
+                                        <Label Padding="0,0,0,0"  Text="Proyecto" HorizontalOptions="Center" Grid.Column="0" Grid.Row="1" Margin="0,0,0,0"></Label>
+                                    </Grid>
+                                </Grid>
+                                <Grid  Grid.Column="2" Grid.Row="0" RowSpacing="0" >
+                                    <Grid VerticalOptions="Center"  >
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="0.6*"></RowDefinition>
+                                            <RowDefinition Height="0.4*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <ffimageloadingsvg:SvgCachedImage  
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="End"
+                                        Aspect="AspectFill"
+                                        HeightRequest="50"
+                                        WidthRequest="50"
+                                        Source="ProspectoIcon.svg">
+                                        </ffimageloadingsvg:SvgCachedImage>
+                                        <Label Padding="0,0,0,0"  Text="Ingresos" HorizontalOptions="Center" Grid.Column="0" Grid.Row="1" Margin="0,0,0,0"></Label>
+                                    </Grid>
+                                </Grid>
+                                <Grid  Grid.Column="0" Grid.Row="1" RowSpacing="0" >
+                                    <Grid VerticalOptions="Center"  >
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="0.6*"></RowDefinition>
+                                            <RowDefinition Height="0.4*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <ffimageloadingsvg:SvgCachedImage  
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="End"
+                                        Aspect="AspectFill"
+                                        HeightRequest="50"
+                                        WidthRequest="50"
+                                        Source="GastosIcon.svg">
+                                        </ffimageloadingsvg:SvgCachedImage>
+                                        <Label Padding="0,0,0,0"  Text="Gasto" HorizontalOptions="Center" Grid.Column="0" Grid.Row="1" Margin="0,0,0,0"></Label>
+                                    </Grid>
+                                </Grid>
+                                <Grid  Grid.Column="1" Grid.Row="1" RowSpacing="0" >
+                                    <Grid VerticalOptions="Center"  >
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="0.6*"></RowDefinition>
+                                            <RowDefinition Height="0.4*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <ffimageloadingsvg:SvgCachedImage  
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="End"
+                                        Aspect="AspectFill"
+                                        HeightRequest="50"
+                                        WidthRequest="50"
+                                        Source="TareasIcon.svg">
+                                        </ffimageloadingsvg:SvgCachedImage>
+                                        <Label Padding="0,0,0,0"  Text="Tarea" HorizontalOptions="Center" Grid.Column="0" Grid.Row="1" Margin="0,0,0,0"></Label>
+                                    </Grid>
+                                </Grid>
+                                <Grid  Grid.Column="2" Grid.Row="1" RowSpacing="0" >
+                                    <Grid VerticalOptions="Center"  >
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="0.6*"></RowDefinition>
+                                            <RowDefinition Height="0.4*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <ffimageloadingsvg:SvgCachedImage  
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="End"
+                                        Aspect="AspectFill"
+                                        HeightRequest="50"
+                                        WidthRequest="50"
+                                        Source="MensajesIcon.svg">
+                                        </ffimageloadingsvg:SvgCachedImage>
+                                        <Label Padding="0,0,0,0"  Text="Mensaje" HorizontalOptions="Center" Grid.Column="0" Grid.Row="1" Margin="0,0,0,0"></Label>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                        </DataTemplate>
+                    </sfpopup:PopupView.ContentTemplate>
+
+                </sfpopup:PopupView>
+            </sfpopup:SfPopupLayout.PopupView>
+        </sfpopup:SfPopupLayout>
+    </ContentPage.Content>
+</ContentPage>
